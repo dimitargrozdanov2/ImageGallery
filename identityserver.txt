@@ -1,0 +1,40 @@
+﻿Steps for adding Identity Server 4: 
+
+- Add a new project asp .net core
+- Add Nuget package for identity server 4
+- In configureservices in the startup class we addidentityserver to register identity server in the asp.net core built dependency container:
+
+  // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential(); 
+        }
+Signing credentials will setup a credential to sign the tokens with. This used to be handled by including a signed certificate. That is not necessary anymore.
+During development we can use this. During production this has to be changed to a real certificate.
+
+We need to add test users, resources and clients.
+
+Claims represent information about the users. It is impractical to put all of the possible claims needed for users into the cookie, so IdentityServer defines an extensibility point for allowing claims to be dynamically loaded as needed for a user. This extensibility point is the IProfileService and it is common for a developer to implement this interface to access a custom database or API that contains the identity data for users.
+
+Claims are related to scopes. Identity Resources map to scopes that give access to identity-related information. 
+
+As we use OpenID Connect , we must support OpenId scope. That is a requirement. The user identifier i.e. subjectid is included.
+We also  have a profile scope which gives support to claim types.
+
+We need to define clients for clients scope which will be later.
+
+Nowe we .AddTestUsers
+.AddInMemoryIdentityResources
+.AddInMemoryClients which we configured earlier.
+
+we have to add identity srver to the request pipleine.
+            app.UseIdentityServer();
+
+
+We have:
+Authorizaiton endpoint (IDP) -=> at level of identity provider is used by the client app to obtain authentication for identity token
+and/or authorization for access tokens from the user
+Token endpoint - used by the client app to programmatically request tokens
+Redirection endpoint - lives at client level - its where the tokens are delivered to by the authorization endpoint
+url/.well-known/openid-configuration => discovery endpoint

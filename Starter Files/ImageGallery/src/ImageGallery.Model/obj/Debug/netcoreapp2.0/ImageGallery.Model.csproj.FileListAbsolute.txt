@@ -1,0 +1,8 @@
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\bin\Debug\netcoreapp2.0\ImageGallery.Model.deps.json
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\bin\Debug\netcoreapp2.0\ImageGallery.Model.dll
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\bin\Debug\netcoreapp2.0\ImageGallery.Model.pdb
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\obj\Debug\netcoreapp2.0\ImageGallery.Model.csproj.CoreCompileInputs.cache
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\obj\Debug\netcoreapp2.0\ImageGallery.Model.AssemblyInfoInputs.cache
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\obj\Debug\netcoreapp2.0\ImageGallery.Model.AssemblyInfo.cs
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\obj\Debug\netcoreapp2.0\ImageGallery.Model.dll
+C:\Users\grozdeto\Desktop\Extra Studying\OpenID and OAuth Course\SecuringAspNetCore2WithOAuth2AndOIDC\Starter Files\ImageGallery\src\ImageGallery.Model\obj\Debug\netcoreapp2.0\ImageGallery.Model.pdb
